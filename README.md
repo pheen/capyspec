@@ -7,7 +7,10 @@ Boilerplate code to quickly get started with Rspec and Capybara. The intention w
 ### Install
 
 1. `git clone https://github.com/pheen/capyspec.git`
-2. `bundle install`
+
+2. `cd capyspec`
+
+3. `bundle install`
 
 ### Usage
 
