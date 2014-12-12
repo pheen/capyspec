@@ -1,13 +1,3 @@
-require 'rspec'
-require 'capybara'
-require 'selenium-webdriver'
-
-Capybara.run_server = false
-Capybara.default_driver = :selenium
-RSpec.configure do |config|
-  config.include Capybara::DSL
-end
-
 describe "github.com", :js => true do
 
   before(:all) do

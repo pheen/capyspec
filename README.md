@@ -14,6 +14,16 @@ Boilerplate code to quickly get started with Rspec and Capybara. The intention w
 
 ### Usage
 
+(an example spec can be found at `spec/github_spec.rb`)
+
 1. Set `Capybara.app_host = ...` to the site you're testing and replace the sample spec with your own or ones recorded from Capycorder.
 
-2. `bundle exec rspec capyspec.rb` to run the suite.
+2. In the terminal type `rspec` to run the suite.
+
+### Helpful Information
+
+The `spec` folder exists for organization and because it's rspec's default expectation (as is ending your file names with `_spec`). It an also be easily moved to an existing project later on for CI.
+
+To get started I would suggest capybara’s github page [https://github.com/jnicklas/capybara](https://github.com/jnicklas/capybara). It can be quickly skimmed for the most part except for the section [Using Capybara With Rspec](https://github.com/jnicklas/capybara#using-capybara-with-rspec), and [The DSL](https://github.com/jnicklas/capybara#the-dsl) through [Exactness](https://github.com/jnicklas/capybara#exactness).
+
+I would also suggest the first video of Codeschool’s Rspec course [http://rspec.codeschool.com/levels/1](http://rspec.codeschool.com/levels/1) (little over 8 minutes).
